@@ -1,45 +1,15 @@
-# ✨ Greeting Card Template ✨
-
-A simple greeting card template created using HTML, CSS and little bit of JavaScript magic. 🪄 The goal of working on this project was to create a simple and easy to use template that can be used to create beautiful greeting cards for your family, friends, colleagues or anyone else.
-
-The template is designed to be used as a starting point for creating your own greeting cards. It is easy to use and can be customized to fit your needs. The template is responsive and the card has a maximum width and height to ensure that is also looks good on tablets and desktops.
-
-## Purpose of the template
-
-A greeting card is a wonderful example of a simple web page that can be created using HTML and CSS. It is a great way to learn the basics of web development and to practice your skills. For example, you can learn how to use HTML to create the structure of the card, how to use CSS to style the card and how to use JavaScript to add interactivity to the card.
-
-For coding workshops, you can customize the greeting card to fit the theme of the workshop and use it to teach the basics of HTML, CSS and JavaScript. The template can also be used to teach more advanced topics such as responsive design, animations and transitions.
-
-As we often used a greeting card as a starting point for our workshops, we decided to create a template that can be used to create beautiful greeting cards for any occasion. The template is designed to be easy to use and can be customized to fit your needs.
-
-## How to use the template
-
-To use the template, you can click on the `Use this template` button on the top right corner of the repository. This will create a new repository with the same structure as the template. You can then clone the repository and start working on your own greeting card. **Have fun!** 🎉
-
-## Project Structure
-
-The project is structured as follows:
-
-```sh
-- .where-the-magic-is
-  - fonts
-  - js
-    - script.js
-  - global.css
-  - README.md
-- images
-  - nameofimage.jpg
-  - ...
-- .gitignore
-- index.html
-- index.js
-- package.json
-- README.md
-- styles.css
-```
-
-The structure is based on the idea that there is one part that you can find inside of the `.where-the-magic-is` folder. The folder contains predefined stylings, JavaScript code and also some fonts that can be used. The stylings are essential for the layout of the card and make the flipcard effect possible that is solved via JavaScript. As the greeting card template is used to teach fundamental web development skills with a focus on HTML and CSS, the JavaScript code is kept to a minimum. Based on this structure, the `index.html` file is the main file that you can use to create your own greeting card. The `index.js` file is used to add some interactivity to the card and the `styles.css` file is used to style the card. The `images` folder contains the images that you can use to create your own greeting card. The `README.md` file contains information about the project and how to use the template.
+# 🌸 Digital Spring: Embracing New Beginnings 🌸
 
 ## Credits
 
-- hamburg.jpg - Photo by <a href="https://unsplash.com/@claudiotesta?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Claudio Testa</a> on <a href="https://unsplash.com/photos/canal-between-buildings-during-nighttime-qpemSW6_1Z0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- bouquet.jpg - <a href="https://unsplash.com/photos/pink-and-white-flowers-with-green-leaves-6c43FgRt0Dw">Vase of Flowers. Creator: Jan Davidsz de Heem. Date: 1670. Institution: Mauritshuis.</a> Public Domain
+- cherry-blossom.jpg - Photo by <a href="https://unsplash.com/@jessicalfadel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jessica Fadel</a> on <a href="https://unsplash.com/photos/white-cherry-blossom-under-blue-sky-during-daytime-ikm9mXRREw4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- curious-deer.jpg - Photo by <a href="https://unsplash.com/@agathe_26?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Agathe</a> on <a href="https://unsplash.com/photos/brown-deer-mdSz_AY5Hi8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- dandelions.jpg - Photo by <a href="https://unsplash.com/@niklas_hamann?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Niklas Hamann</a> on <a href="https://unsplash.com/photos/yellow-petaled-flower-lot-during-daytime-uDY-h_z4XlQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- green-leaves.jpg - Photo by <a href="https://unsplash.com/@dtolokonov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dmytro Tolokonov</a> on <a href="https://unsplash.com/photos/tree-leaves-macro-photography-Jq3WI9IQgEs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- flower-details.jpg - Photo by <a href="https://unsplash.com/@timothycdykes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Timothy Dykes</a> on <a href="https://unsplash.com/photos/yellow-flower-in-close-up-photography-wrZiQTfH2UQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- flowering-trees.jpg - Photo by <a href="https://unsplash.com/@dulcineiadias?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dulcineia Dias</a> on <a href="https://unsplash.com/photos/white-petal-flowers-shallow-focus-photography-HQOA0LA91As?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- orange-flowers.jpg - Photo by <a href="https://unsplash.com/@monstercritic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sergey Shmidt</a> on <a href="https://unsplash.com/photos/orange-petaled-flowers-koy6FlCCy5s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- pink-flowers.jpg - Photo by <a href="https://unsplash.com/@babybluecat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">J Lee</a> on <a href="https://unsplash.com/photos/pink-flowers-in-tilt-shift-lens-0lL6Sox7n1Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- pink-wall.jpg - Photo by <a href="https://unsplash.com/@joyful_gabby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabrielle Audu</a> on <a href="https://unsplash.com/photos/purple-and-yellow-flowers-in-brown-clay-pots-SWAI1t-kjkY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- sunny-field.jpg - Photo by <a href="https://unsplash.com/@macedorafs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rafael Macedo</a> on <a href="https://unsplash.com/photos/wheat-field-kR3ZIZ6cGcI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
