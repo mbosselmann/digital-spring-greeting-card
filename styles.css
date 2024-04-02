@@ -1,26 +1,98 @@
 @import url("/.where-the-magic-is/global.css");
 
-.headline {
-  font-family: "Allison", Geneva, Verdana, sans-serif;
-  color: white;
-  text-shadow: 3px 3px midnightblue;
-  font-size: 72px;
+.header {
+  font-family: "Rye";
+  color: black;
+  place-self: center;
+  /* text-shadow: 2px 2px 0 green, -2px -2px 0 green, 2px -2px 0 green,
+    -2px 2px 0 green; */
+  background-color: white;
+  padding: 40px;
+  width: 90%;
+  border-radius: 74% 26% 70% 30% / 30% 63% 37% 70%;
+}
+
+body {
+  font-family: "Handlee";
+  background-color: lightblue;
 }
 
 .flipcard {
   transform: rotateY(180deg);
 }
 
-.card {
-  font-family: "Handlee";
-  font-size: 32px;
+.front {
+  border-color: mintcream;
 }
 
-.front {
-  border: 1rem solid white;
+.back {
+  background: linear-gradient(lightblue, white);
 }
 
 .title {
   font-family: "Allison";
-  font-size: 72px;
+}
+
+.bee {
+  animation: fly 2s infinite;
+  filter: drop-shadow(0 0 20px orange);
+  place-self: start end;
+  margin: 70px 25px 0 0;
+}
+
+.bee--honey {
+  animation: fly 3s infinite;
+  place-self: start;
+  margin: 50px 0 0 25px;
+}
+
+.bee--happy {
+  place-self: end center;
+  margin: 0 0 100px 0;
+  animation: spin 1.5s infinite;
+}
+
+@keyframes fly {
+  50% {
+    transform: translateY(-1.5rem);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.postcardimage {
+  /* filter: blur(2px); */
+  object-position: left;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(3turn);
+  }
+}
+
+.flower {
+  display: block;
+  margin: 0 auto;
+}
+
+.rotate {
+  animation: rotate 5s ease-in-out 1;
+}
+
+.flower-bg {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
