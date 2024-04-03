@@ -1,8 +1,9 @@
 {
-  "name": "greeting-card-template",
+  "name": "greeting-card-spring-edition",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "Mareike Boßelmann",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
