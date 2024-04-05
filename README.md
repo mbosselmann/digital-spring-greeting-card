@@ -449,7 +449,11 @@ Codesandbox provides you with a preview link that you can use for this case. The
 ```
 
 ```js
+const card = document.querySelector(".card");
 
+card.addEventListener("click", () => {
+  card.classList.toggle("flipcard");
+});
 ```
 
 ## Credits
@@ -467,7 +471,3 @@ Codesandbox provides you with a preview link that you can use for this case. The
 - pink-flowers.jpg - Photo by <a href="https://unsplash.com/@babybluecat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">J Lee</a> on <a href="https://unsplash.com/photos/pink-flowers-in-tilt-shift-lens-0lL6Sox7n1Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - pink-wall.jpg - Photo by <a href="https://unsplash.com/@joyful_gabby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabrielle Audu</a> on <a href="https://unsplash.com/photos/purple-and-yellow-flowers-in-brown-clay-pots-SWAI1t-kjkY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - sunny-field.jpg - Photo by <a href="https://unsplash.com/@macedorafs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rafael Macedo</a> on <a href="https://unsplash.com/photos/wheat-field-kR3ZIZ6cGcI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-```
-
-```
