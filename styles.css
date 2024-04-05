@@ -1,3 +1,4 @@
+@import url("/.where-the-magic-is/fonts.css");
 @import url("/.where-the-magic-is/global.css");
 
 .header {
@@ -13,7 +14,7 @@
 }
 
 body {
-  font-family: "Handlee";
+  font-family: "Dosis";
   background-color: lightblue;
 }
 
@@ -26,11 +27,12 @@ body {
 }
 
 .back {
-  background: linear-gradient(lightblue, white);
+  background: lightyellow;
+  border-color: gold;
 }
 
 .title {
-  font-family: "Allison";
+  font-family: "Londrina Shadow";
 }
 
 .bee {
@@ -88,11 +90,4 @@ body {
 
 .rotate {
   animation: rotate 5s ease-in-out 1;
-}
-
-.flower-bg {
-  position: absolute;
-  top: 5px;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

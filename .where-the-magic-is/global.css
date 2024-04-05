@@ -1,48 +1,3 @@
-/* allison-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Allison";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/allison-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* handlee-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Handlee";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/handlee-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* rye-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Rye";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/rye-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* londrina-shadow-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Londrina Shadow";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/londrina-shadow-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* playfair-display-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/playfair-display-v37-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -104,6 +59,11 @@ body {
   overflow: hidden;
   position: relative;
   border: 1rem solid white;
+}
+
+.back > p,
+.back > h2 {
+  margin-top: 1rem;
 }
 
 .header {

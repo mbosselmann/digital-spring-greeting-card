@@ -1,8 +1,6 @@
 # ✨ Where the Magic is ✨
 
-Inside of this folder you can find the magic that makes the greeting card template work. The folder contains stylings, JavaScript code and also some fonts that can be used. The stylings are essential for the layout of the card and make the flipcard effect possible that is solved via JavaScript.
-
-As these greeting card template is used to teach fundamental web development skills with a focus on HTML and CSS, the JavaScript code is kept to a bare minimum.
+Inside of this folder you can find the magic that makes the greeting card template work. The folder contains stylings and also some fonts that can be used. The stylings are essential for the layout of the card and make the flipcard effect possible that is solved via JavaScript.
 
 ## Explanation of the CSS code inside of `global.css`
 
@@ -190,16 +188,3 @@ p {
 The `p` selector selects all `p` elements on the page. By using the `p` selector, we define a margin for all `p` elements. The `margin` property sets the margin of the `p` elements to `0 0 10px 0` (top, right, bottom, left). This way we ensure that there is a margin below each paragraph.
 
 Last but not least we have a class selector `.postcardimage` that selects the elements with the class `postcardimage`. By using the `.postcardimage` selector, we define the behaviour of the image that is placed inside of the `.front` element. The `height` and `width` properties set the height and width of the image to `100%`. The `object-fit` property sets how the content of the image is resized to fit the container. The `cover` value scales the image as large as possible while maintaining the aspect ratio and cropping the image to cover the container.
-
-## Explanation of JavaScript Code inside of `script.js`
-
-The `script.js` file contains the JavaScript code that adds interactivity to the greeting card. For a good understanding of the following explanations you should first know more about how JavaScript works. You should know what a variable is and how to use it. Also how to use functions and how to use event listeners. For a good start we can recommend [MDN](https://developer.mozilla.org/en-US/) and [JavaScript.info](https://javascript.info/).
-
-```js
-const card = document.querySelector(".card");
-card.addEventListener("click", () => {
-  card.classList.toggle("flipcard");
-});
-```
-
-With this code we select the `.card` element and add an event listener to it. The event listener listens for a `click` event on the `.card` element. When the `.card` element is clicked, the event listener calls a function that toggles the `flipcard` class on the `.card` element. The `flipcard` class is used to rotate the card by `180 deg` and to show the back side of the card. If the user clicks on the card again, the `flipcard` class is removed and the card rotates back to the front side.
