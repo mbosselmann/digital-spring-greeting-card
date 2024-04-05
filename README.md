@@ -254,8 +254,8 @@ We want to add a beautiful image as background for the front side of our card. Y
 ```html
 <img
   class="postcardimage"
-  src="./images/hamburg.jpg"
-  alt="magic greeting card image"
+  src="./assets/images/cherry-blossom.jpg"
+  alt="cherry blossoms"
 />
 ```
 
@@ -303,7 +303,7 @@ We will add them like our background image by using the `img` tag. And then we a
   <img
     class="postcardimage"
     src="./assets/images/cherry-blossom.jpg"
-    alt="magic greeting card image"
+    alt="cherry blossoms"
   />
   <img src="./assets/bees/bee.svg" alt="bee" />
 </section>
