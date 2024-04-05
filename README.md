@@ -174,7 +174,7 @@ Within this project we have already added some fonts that you can use:
 
 Nevertheless, there are also some web safe fonts that you can use like `Helvetica`, `Gill Sans` or `Baskerville`. Web safe fonts means that they are available on most operating systems and browsers. Feel free to try them out!
 
-## Step 3: Split card content into two Sections
+## Step 3: Split card content into two sections
 
 We need the predefined classes `.card`, `.front` and `.back` to be added to their respective tags in order to apply our global styles:
 
@@ -261,7 +261,7 @@ We want to add a beautiful image as background for the front side of our card. Y
 
 > 💡 `.postcardimage` is a prepared global class that makes the image cover the front of the card.
 
-## Step 5: Position and add more styles to the headline
+## Step 6: Position and add more styles to the headline
 
 We want to **position the headline in the center of the card**. The good thing is: We already implemented a layout method for this case and the only thing we know need to do is position the headline. The layout method is called `grid`. I created a so called `grid container` for all elements that we want to position on our front side of the card. The `grid container` is the `section` element with the class `front`.
 
@@ -289,7 +289,7 @@ We also added a `width` of `80%` to the headline. This will make the headline a 
 
 And we added a `border-radius` to the headline to create a round shape. The values for the `border-radius` are percentages. The first four values are for the horizontal radius and the last four values are for the vertical radius. This way we create an asymmetrical shape. 🎨
 
-## Step 6: Let's add some bees to our card 🐝🐝🐝
+## Step 7: Let's add some bees to our card 🐝🐝🐝
 
 We want to add some animated bees to our card. Therefore, we have prepared some bees as SVGs for you. 🐝 SVGs are vector images that can be scaled without losing quality. You can use them to create animations or to add some nice details to your website. 🎨
 
@@ -353,20 +353,104 @@ Let's add more bees to our card! 🐝🐝
 }
 
 @keyframes spin {
-  50% {
-    transform: rotate(-360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }
 ```
 
-## Step 7: Let's be creative and add more stylings to our card
+## Step 8: Let's be creative and add more stylings to our card
 
 You can add more stylings to your card to make it look even more beautiful. You can change the colors, the fonts, the sizes, and the positions of the elements. You can also add more animations to your card. 🎨
 
-## Step 6: Share your greeting card
+## Step 9: Share your greeting card
 
 Now that you have created your greeting card, you can share it with others. 🌐
 Codesandbox provides you with a preview link that you can use for this case. Then the recipient can click on the link and see your beautiful greeting card without having to download anything. 🎉
+
+**Your code for the greeting card might look like this:**
+
+```html
+<main class="card">
+  <section class="front">
+    <h1 class="headline">Digital Spring</h1>
+    <img
+      class="postcardimage"
+      src="./assets/images/cherry-blossom.jpg"
+      alt="cherry blossoms"
+    />
+    <img class="bee" src="./assets/bees/bee.svg" alt="bee" />
+    <img class="honey-bee" src="./assets/bees/bee-honey-pot.svg" alt="bee" />
+    <img class="happy-bee" src="./assets/bees/bee-happy.svg" alt="bee" />
+  </section>
+  <section class="back">
+    <h2>Lieber Mensch,</h2>
+    <p>
+      der Frühling ist endlich da! Und was gibt es besseres als in dieser Zeit
+      etwas Neues zu lernen?
+    </p>
+    <p>
+      Ich habe mir gedacht, dass du dich bestimmt über Grüße von mir freuen
+      würdest. Deshalb habe ich dir diese digitale Postkarte geschrieben.
+    </p>
+    <p>
+      Alles Liebe <br />
+      Mareike
+    </p>
+  </section>
+</main>
+```
+
+```css
+.headline {
+  color: midnightblue;
+  font-family: "Rye", sans-serif;
+  background-color: whitesmoke;
+  place-self: center;
+  width: 80%;
+  padding: 40px 30px;
+  border-radius: 79% 21% 82% 18% / 55% 68% 32% 45%;
+}
+
+.flipcard {
+  transform: rotateY(180deg);
+}
+
+.bee {
+  place-self: start end;
+  margin: 70px 25px 0 0;
+  animation: fly 2s infinite;
+}
+
+@keyframes fly {
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.honey-bee {
+  animation: fly 3s infinite;
+  place-self: start;
+  margin: 50px 0 0 25px;
+}
+
+.happy-bee {
+  place-self: end center;
+  margin: 0 0 100px 0;
+  animation: spin 1.5s infinite;
+  filter: drop-shadow(0 0 20px orange);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
+
+```js
+
+```
 
 ## Credits
 
@@ -383,3 +467,7 @@ Codesandbox provides you with a preview link that you can use for this case. The
 - pink-flowers.jpg - Photo by <a href="https://unsplash.com/@babybluecat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">J Lee</a> on <a href="https://unsplash.com/photos/pink-flowers-in-tilt-shift-lens-0lL6Sox7n1Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - pink-wall.jpg - Photo by <a href="https://unsplash.com/@joyful_gabby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gabrielle Audu</a> on <a href="https://unsplash.com/photos/purple-and-yellow-flowers-in-brown-clay-pots-SWAI1t-kjkY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - sunny-field.jpg - Photo by <a href="https://unsplash.com/@macedorafs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rafael Macedo</a> on <a href="https://unsplash.com/photos/wheat-field-kR3ZIZ6cGcI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+```
+
+```
