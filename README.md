@@ -370,6 +370,8 @@ Codesandbox provides you with a preview link that you can use for this case. The
 
 ## Credits
 
+- bees and flowers by [Mareike Boßelmann](https://github.com/mbosselmann)
+
 - bouquet.jpg - <a href="https://unsplash.com/photos/pink-and-white-flowers-with-green-leaves-6c43FgRt0Dw">Vase of Flowers. Creator: Jan Davidsz de Heem. Date: 1670. Institution: Mauritshuis.</a> Public Domain
 - cherry-blossom.jpg - Photo by <a href="https://unsplash.com/@jessicalfadel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jessica Fadel</a> on <a href="https://unsplash.com/photos/white-cherry-blossom-under-blue-sky-during-daytime-ikm9mXRREw4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - curious-deer.jpg - Photo by <a href="https://unsplash.com/@agathe_26?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Agathe</a> on <a href="https://unsplash.com/photos/brown-deer-mdSz_AY5Hi8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
