@@ -14,13 +14,6 @@ During our journey, we will learn more **about HTML, CSS, and a little bit of Ja
 
 In the end we will have a beautiful greeting card. 🐝
 
-<p align="center">
-<img src="./assets/instructions/card-front.png" width="200" alt="Front Side of Greeting Card">
-<img src="./assets/instructions/card-back.png" width="201" alt="Back Side of Greeting Card">
-</p>
-
-_An example of how the finished greeting card could look like. :)_
-
 ## Who do we want to reach with our greeting card?
 
 A greeting card could have multiple purposes: to celebrate a special occasion, to express gratitude, to send well wishes, or to simply say hello. 💌 It is up to you to decide what you want to express with your greeting card. 🌸
