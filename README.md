@@ -319,7 +319,7 @@ We will add them like our background image by using the `img` tag. And then we a
 
 @keyframes fly {
   50% {
-    transform: translateY(-1.5rem);
+    transform: translateY(30px);
   }
 }
 ```
