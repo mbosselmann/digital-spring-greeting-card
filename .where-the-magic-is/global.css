@@ -33,8 +33,8 @@ body {
 
 @media (max-width: 500px) {
   .card {
-    max-height: 100vh;
-    font-size: 6.5vw;
+    max-height: 100svh;
+    font-size: 6vw;
   }
 }
 
@@ -66,16 +66,14 @@ body {
   margin-top: 1rem;
 }
 
-.header {
-  position: relative;
+.headline {
+  height: max-content;
   z-index: 1;
   text-align: center;
-  height: max-content;
-  font-size: 50px;
 }
 
 @media (max-width: 500px) {
-  .header {
+  .headline {
     font-size: 10vw;
   }
 }
