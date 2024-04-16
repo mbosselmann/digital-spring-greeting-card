@@ -10,7 +10,7 @@ Your greeting card can be a beautiful way to show your care for someone. A greet
 Therefore, our **greeting card** will have two sides. The **front side** will show a beautiful image, a greeting text (or something else you want to say) and some animated bees. The **back side** will have your message for the recipient. 💌
 Only **one side of the card will be visible** at a time. The recipent needs to click (or touch for mobile devices) the card to flip it. 🔄
 
-During our journey, we will learn more **about HTML, CSS, and a little bit of JavaScript**. We will learn how to **structure our card** with HTML, how to **style** it with CSS, and how to add **animations** to it. 🎨 And we will add a **flipcard effect** to our card with CSS and JavaScript. 🔄
+During our journey, we will learn more **about HTML and CSS**. We will learn how to **structure our card** with HTML, how to **style** it with CSS, and how to add **animations** to it. 🎨
 
 In the end we will have a beautiful greeting card. 🐝
 
@@ -18,7 +18,7 @@ In the end we will have a beautiful greeting card. 🐝
 
 A greeting card could have multiple purposes: to celebrate a special occasion, to express gratitude, to send well wishes, or to simply say hello. 💌 It is up to you to decide what you want to express with your greeting card. 🌸
 
-But you will show to the recipients of your card that you care about them and that you took the time to create something for them with HTML, CSS, and JavaScript. 🎨
+But you will show to the recipients of your card that you care about them and that you took the time to create something for them with HTML and CSS. 🎨
 
 ## What do we need to get started?
 
@@ -37,17 +37,16 @@ We will work with an online code editor called **CodeSandbox**. You need to have
 We have set up the project for you and we can start coding right away. 🎉
 But let us briefly explain what the files and folders are for. 📁
 
-Since we only have a limited time frame to build the card, there are already some stylings that we have prepared. The basic structure of the HTML is also already build.
+Since we only have a limited time frame to build the card, there are already some stylings and some JavaScript code that we have prepared. The basic structure of the HTML is also already build.
 If you want to look at the stylings later, you can find them in the `.where-the-magic-is` folder. 📝
 
 The main files and folder that we will work with are:
 
 - **index.html**: This is the main file of our project. We will structure our greeting card here.
 - **styles.css**: This file contains the styles for our greeting card. We will style our card here.
-- **index.js**: This file contains the JavaScript code for our greeting card. We will add flip effect here.
 - **assets**: Images and all the other assets that you can use for your greeting card are in the `assets` folder. 🖼
 
-The `.gitignore`, `package.json` and `sandbox.config.json` contain some configurations for and information about the project. You don't need to worry about them. 🚀
+The `.gitignore`, `package.json`, `package-lock.json` and `sandbox.config.json` contain some configurations for and information about the project. You don't need to worry about them. 🚀
 
 The `README.md` file contains information about the project. You are reading it right now. 📖
 
@@ -55,7 +54,7 @@ That's it! 🎉 So let's start coding! 🚀
 
 ## How can we create our greeting card?
 
-We will create our greeting card step by step. We will start with writing HTML to structure our card, then we will style it with CSS, and finally we will add some animations with CSS and JavaScript. 🎨
+We will create our greeting card step by step. We will start with writing HTML to structure our card, then we will style it with CSS, and finally we will add some animations. 🎨
 
 ## Guide 📜
 
@@ -200,21 +199,19 @@ We need the predefined classes `.card`, `.front` and `.back` to be added to thei
 </main>
 ```
 
-> 💡 This _hides_ the back of the card. this might be surprising but is what we want.
+> 💡 This _hides_ the back of the card. This might be surprising but is what we want.
 
-## Step 4: Add the flip effect with CSS and JavaScript
+## Step 4: Add the flip effect
 
-If you click around you will see that the card is not turning yet. We need to add some CSS and JavaScript to make this happen.
+If you click around you will see that the card is not turning yet. We need to add some CSS. We already implemented some JavaScript for you. 🎉
 
 ### But first: What is JavaScript?
 
 **JavaScript** is used to make websites interactive. We will use JavaScript to add a flip effect to our card. JavaScript is a programming language that is used to create and control dynamic website content.
 
-We want to add a flip effect to our card. This means that when we click on the card, it should turn around and show the back side of the card. To achieve this, we need to add an event listener to the card. An event listener listens for a specific event (a click is an event!) to happen and then executes a function.
+We want to add a flip effect to our card. This means that when we click on the card, it should turn around and show the back side of the card.
 
 ### Code
-
-But let us first add the CSS we also need for the flip effect.
 
 ```css
 .flipcard {
@@ -226,19 +223,9 @@ With `transform: rotateY(180deg);` we rotate the card around the y-axis by 180 d
 
 > 💡 `transform` is a CSS property that allows us to rotate, scale, skew, or move an element. In this case, we rotate the card around the y-axis.
 
-Now we will write the JavaScript code we need to add the flip card effect.
-
-```javascript
-const card = document.querySelector(".card");
-
-card.addEventListener("click", () => {
-  card.classList.toggle("flipcard");
-});
-```
-
 When you now click on the card you will see that it is turning! Yay. :)
 
-## Step 5: Add a image as background for the front side
+## Step 5: Add an image as background for the front side
 
 We want to add a beautiful image as background for the front side of our card. You can use one of the images we have prepared for you. 🖼
 
@@ -252,11 +239,11 @@ We want to add a beautiful image as background for the front side of our card. Y
 />
 ```
 
-> 💡 `.postcardimage` is a prepared global class that makes the image cover the front of the card.
+> 💡 `.postcardimage` is a prepared CSS class that makes the image cover the front of the card.
 
 ## Step 6: Position and add more styles to the headline
 
-We want to **position the headline in the center of the card**. The good thing is: We already implemented a layout method for this case and the only thing we know need to do is position the headline. The layout method is called `grid`. I created a so called `grid container` for all elements that we want to position on our front side of the card. The `grid container` is the `section` element with the class `front`.
+We want to **position the headline in the center of the card**. The good thing is: We already implemented a layout method for this case and the only thing we now need to do is position the headline. The layout method is called `grid`. I created a so called `grid container` for all elements that we want to position on our front side of the card. The `grid container` is the `section` element with the class `front`.
 
 The `grid container` is the parent element of the headline. The headline is the `h1` element with the class `headline`.
 
@@ -439,14 +426,6 @@ Codesandbox provides you with a preview link that you can use for this case. The
     transform: rotate(360deg);
   }
 }
-```
-
-```js
-const card = document.querySelector(".card");
-
-card.addEventListener("click", () => {
-  card.classList.toggle("flipcard");
-});
 ```
 
 ## Credits
