@@ -2,12 +2,12 @@
 @import url("/.where-the-magic-is/global.css");
 
 .headline {
-  font-family: "Rye";
+  font-family: "Londrina Shadow";
   color: black;
   place-self: center;
   /* text-shadow: 2px 2px 0 green, -2px -2px 0 green, 2px -2px 0 green,
     -2px 2px 0 green; */
-  background-color: rgb(255 255 255 / 50%);
+  background-color: whitesmoke;
   padding: 40px;
   width: 90%;
   border-radius: 74% 26% 70% 30% / 30% 63% 37% 70%;
@@ -89,4 +89,14 @@ body {
 
 .rotate {
   animation: rotate 5s ease-in-out 1;
+}
+
+.content {
+  overflow: scroll;
+}
+
+.signature {
+  font-family: "Allison";
+  font-size: 64px;
+  margin: 0 0 0 24px;
 }

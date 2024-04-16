@@ -61,10 +61,11 @@ body {
   overflow: hidden;
   position: relative;
   border: 1rem solid white;
+  z-index: 1;
 }
 
-.back > p,
-.back > h2 {
+p,
+h2 {
   margin-top: 1rem;
 }
 
@@ -72,27 +73,18 @@ body {
   height: max-content;
   z-index: 1;
   text-align: center;
-}
-
-@media (max-width: 500px) {
-  .headline {
-    font-size: 10vw;
-  }
-}
-
-p {
-  margin: 0 0 10px 0;
+  font-size: 5rem;
 }
 
 .postcardimage {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  z-index: -1;
 }
 
 .back > .postcardimage {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
