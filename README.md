@@ -1,7 +1,7 @@
 # 🌸 Digital Spring: Embracing New Beginnings 🌸
 
 Welcome to this digital greeting card project! 🎉
-We will learn together how to create a greeting card with HTML and CSS (a little bit of JavaScript). 🌼
+We will learn together how to create a greeting card with HTML and CSS. 🌼
 
 ## What do we want to achieve?
 
@@ -75,7 +75,7 @@ clarification:
 
 **When we write HTML we use the following terms:**
 
-- `HTML element`: Every piece of content in a HTML document is placed inside of an HTML element. **HTML elements** are the building blocks of HTML pages.
+- `HTML element`: Every piece of content in a HTML document is placed inside of a HTML element. **HTML elements** are the building blocks of HTML pages.
 
 - `HTML tags`: The elements are written in form of HTML tags, meaning surrounded by `<>` and
   `</>`.
@@ -88,17 +88,17 @@ We will start by creating the basic structure of our greeting card. We add the c
 ```html
 <main>
   <section>
-    <h1>Digital Spring</h1>
+    <h1>Tech in den Mai</h1>
   </section>
   <section>
     <h2>Lieber Mensch,</h2>
     <p>
-      der Frühling ist endlich da! Und was gibt es besseres als in dieser Zeit
-      etwas Neues zu lernen?
+      der Mai ist endlich da! Und was gibt es besseres als jetzt etwas Neues zu
+      lernen?
     </p>
     <p>
       Ich habe mir gedacht, dass du dich bestimmt über Grüße von mir freuen
-      würdest. Deshalb habe ich dir diese digitale Postkarte geschrieben.
+      würdest. Deshalb schicke ich dir diese digitale Postkarte.
     </p>
     <p>
       Alles Liebe <br />
