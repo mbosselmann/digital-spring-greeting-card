@@ -330,7 +330,7 @@ Let's add more bees to our card! 🐝🐝
 }
 
 @keyframes spin {
-  100% {
+  50% {
     transform: rotate(360deg);
   }
 }
