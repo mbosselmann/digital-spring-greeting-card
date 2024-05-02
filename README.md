@@ -297,7 +297,7 @@ We will add them like our background image by using the `img` tag. And then we a
 }
 
 @keyframes fly {
-  100% {
+  50% {
     transform: translateY(30px);
   }
 }
@@ -330,7 +330,7 @@ Let's add more bees to our card! 🐝🐝
 }
 
 @keyframes spin {
-  50% {
+  100% {
     transform: rotate(360deg);
   }
 }
