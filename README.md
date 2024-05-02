@@ -203,7 +203,7 @@ We need the predefined classes `.card`, `.front` and `.back` to be added to thei
 
 ## Step 4: Add the flip effect
 
-If you click around you will see that the card is not turning yet. We need to add some CSS. We already implemented some JavaScript for you. 🎉
+If you click around you will see that the card is not turning yet. We need to add some CSS. We already implemented the needed JavaScript code for you. 🎉
 
 ### But first: What is JavaScript?
 
@@ -294,19 +294,16 @@ We will add them like our background image by using the `img` tag. And then we a
   place-self: start end;
   margin: 70px 25px 0 0;
   animation: fly 2s infinite;
-  filter: drop-shadow(0 0 20px orange);
 }
 
 @keyframes fly {
-  50% {
+  100% {
     transform: translateY(30px);
   }
 }
 ```
 
 With `place-self: start end;` we position the bee in the top right corner of the card. We also added a `margin` to the bee to create some space around it. The `animation` property is used to animate the bee. We created a keyframe animation called `fly` that moves the bee up and down. 🐝
-
-> 💡 `filter: drop-shadow(0 0 20px orange);` is a CSS property that adds a shadow to the bee. The values for the `drop-shadow` property are the horizontal offset, the vertical offset, the blur radius, and the color of the shadow.
 
 `@keyframes` is a CSS rule that is used to create animations. We created a keyframe animation called `fly` that moves the bee up and down. The values for the keyframes are the percentage of the animation and the CSS properties that should be animated.
 
@@ -418,7 +415,6 @@ Codesandbox provides you with a preview link that you can use for this case. The
   place-self: end center;
   margin: 0 0 100px 0;
   animation: spin 1.5s infinite;
-  filter: drop-shadow(0 0 20px orange);
 }
 
 @keyframes spin {
